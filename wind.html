@@ -19,11 +19,20 @@ h1{font-size:138.5%;}h2{font-size:123.1%;}h3{font-size:108%;}h1,h2,h3{margin:1em
   </head>
   <body>
     <div class="tab"> <a class="btn btn-primary" href="index.html" role="button">Home</a>
-      <a class="btn btn-primary" href="temp.html" role="button">Plots</a> <a class="btn btn-primary"
-
-        href="comparison.html" role="button">Comparison</a> <a class="btn btn-primary"
-
-        href="data.html" role="button">Data</a> </div>
+      <a class="btn btn-primary" href="comparison.html" role="button">Comparison</a> 
+      <a class="btn btn-primary" href="data.html" role="button">Data</a>
+      <div class="btn-group">
+        <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Plots
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="temp.html">Temperature</a>
+          <a class="dropdown-item" href="humidity.html">Humidity</a>
+          <a class="dropdown-item" href="cloud.html">Cloudiness</a>
+          <a class="dropdown-item" href="wind.html">Wind</a>
+        </div>
+      </div>
+    </div>
     <div id="doc3" class="yui-t1"></div>
     <div class="yui-t1" id="doc">
       <div id="hd">
